@@ -14,7 +14,6 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.bumptech.glide.Glide
 import nivaldo.dh.exercise.android.databinding.FragmentRestaurantDetailBinding
 import nivaldo.dh.exercise.android.home.model.Recipe
-import nivaldo.dh.exercise.android.home.model.Restaurant
 import nivaldo.dh.exercise.android.home.view.adapter.RecipeAdapter
 import nivaldo.dh.exercise.android.home.viewmodel.RestaurantDetailViewModel
 

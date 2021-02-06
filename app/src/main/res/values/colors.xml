@@ -5,10 +5,8 @@
     <color name="indigo_200">#9FA8DA</color>
     <color name="indigo_500">#3F51B5</color>
     <color name="indigo_700">#303F9F</color>
-    <color name="indigo_a100">#8C9EFF</color>
 
     <color name="red_200">#F48FB1</color>
-    <color name="red_a200">#FF5252</color>
     <color name="red_700">#D32F2F</color>
 
     <color name="midnight">#1E2D3E</color>
@@ -16,9 +14,7 @@
     <color name="link_water">#C0CCDA</color>
     <color name="ship_cove">#8492A6</color>
     <color name="sunset_orange">#FF5252</color>
-    <color name="gainsboro">#DDDDDD</color>
     <color name="shuttle_grey">#5A6978</color>
 
-    <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

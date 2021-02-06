@@ -1,19 +1,17 @@
 <resources>
     <string name="app_name">Foods</string>
     <string name="splash_screen">Splash screen</string>
-    <string name="loading">Loading…</string>
     <string name="or">or</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="register">Register</string>
     <string name="log_in">Log in</string>
     <string name="app_title">Digital House Foods</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="repeat_password">Repeat password</string>
     <string name="name">Name</string>
     <string name="restaurant_image">Restaurant image</string>
     <string name="restaurant_detail">Restaurant detail</string>
-    <string name="main_dishes">Pratos principais</string>
+    <string name="main_dishes">Main recipes</string>
     <string name="recipe_image">Recipe image</string>
     <string name="recipe_detail">Recipe detail</string>
 </resources>

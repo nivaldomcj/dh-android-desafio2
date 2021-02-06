@@ -14,6 +14,13 @@ class RegisterFragment : Fragment() {
 
     private lateinit var binding: FragmentRegisterBinding
 
+    private fun initComponents() {
+        binding.btnRegister.setOnClickListener {
+            val action = RegisterFragmentDirections.actionRegisterFragmentToHomeFragment()
+            findNavController().navigate(action)
+        }
+    }
+
     private fun initActionBar() {
         val navController = findNavController()
         val appBarConfiguration = AppBarConfiguration(navController.graph)
@@ -34,6 +41,7 @@ class RegisterFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         initActionBar()
+        initComponents()
     }
 
 }

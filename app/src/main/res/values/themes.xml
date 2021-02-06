@@ -75,4 +75,22 @@
         <item name="backgroundTint">@color/ship_cove</item>
     </style>
 
+    <style name="Theme.Foods.Restaurant">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">2dp</item>
+    </style>
+
+    <style name="Theme.Foods.Restaurant.Title" parent="Theme.Foods.Restaurant">
+        <item name="android:textColor">@color/midnight</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.Foods.Restaurant.Text" parent="Theme.Foods.Restaurant">
+        <item name="android:textColor">@color/ship_cove</item>
+    </style>
+
 </resources>

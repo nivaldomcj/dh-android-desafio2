@@ -13,6 +13,10 @@ class LoginFragment : Fragment() {
     private lateinit var binding: FragmentLoginBinding
 
     private fun initComponents() {
+        binding.btnLogIn.setOnClickListener {
+            val action = LoginFragmentDirections.actionLoginFragmentToHomeFragment()
+            findNavController().navigate(action)
+        }
         binding.btnRegister.setOnClickListener {
             val action = LoginFragmentDirections.actionLoginFragmentToRegisterFragment()
             findNavController().navigate(action)

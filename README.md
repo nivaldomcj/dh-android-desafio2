@@ -17,6 +17,7 @@ Exercício _Desafio Android_ (Desafio 2) desenvolvido no Curso Santander Coders 
 - Tela de Login
 - Tela de Cadastro de Usuário
 - Tela Home
+- Detalhe do Restaurante
 - Detalhe do Cardápio
 
 ### Organização

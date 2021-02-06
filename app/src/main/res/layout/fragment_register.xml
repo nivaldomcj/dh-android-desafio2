@@ -30,7 +30,6 @@
             android:id="@+id/til_name"
             style="@style/Theme.Foods.TextInputLayout"
             android:hint="@string/name"
-            app:endIconMode="clear_text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">

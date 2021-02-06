@@ -93,4 +93,10 @@
         <item name="android:textColor">@color/ship_cove</item>
     </style>
 
+    <style name="Theme.Foods.Restaurant.RecipesTitle" parent="Theme.Foods.Restaurant.Title">
+        <item name="android:textColor">@color/shuttle_grey</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

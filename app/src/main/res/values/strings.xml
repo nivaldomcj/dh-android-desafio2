@@ -12,4 +12,7 @@
     <string name="repeat_password">Repeat password</string>
     <string name="name">Name</string>
     <string name="restaurant_image">Restaurant image</string>
+    <string name="restaurant_detail">Restaurant detail</string>
+    <string name="main_dishes">Pratos principais</string>
+    <string name="recipe_image">Recipe image</string>
 </resources>

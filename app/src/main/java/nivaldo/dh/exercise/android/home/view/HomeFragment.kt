@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import nivaldo.dh.exercise.android.databinding.FragmentHomeBinding
 import nivaldo.dh.exercise.android.home.model.Restaurant
@@ -18,14 +19,11 @@ class HomeFragment : Fragment() {
     private lateinit var binding: FragmentHomeBinding
 
     private fun loadRestaurantsRecyclerView(restaurantsList: List<Restaurant>) {
-        // hide loading
-        binding.pbLoadingRestaurants.visibility = View.GONE
-
-        // show list of restaurants
         binding.rvRestaurants.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = RestaurantAdapter(restaurantsList) {
-                // TODO call detail
+                val action = HomeFragmentDirections.actionHomeFragmentToRestaurantDetailFragment(it)
+                findNavController().navigate(action)
             }
         }
     }

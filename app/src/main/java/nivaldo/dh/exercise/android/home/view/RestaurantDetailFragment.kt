@@ -25,11 +25,13 @@ class RestaurantDetailFragment : Fragment() {
     private val args: RestaurantDetailFragmentArgs by navArgs()
 
     private fun loadRestaurantRecipesRecyclerView(recipesList: List<Recipe>) {
-        // show list of recipes
         binding.rvRecipes.apply {
             layoutManager = GridLayoutManager(context, 2)
             adapter = RecipeAdapter(recipesList) {
-                // TODO
+                val action = RestaurantDetailFragmentDirections
+                    .actionRestaurantDetailFragmentToRecipeDetailFragment(it)
+
+                findNavController().navigate(action)
             }
         }
     }

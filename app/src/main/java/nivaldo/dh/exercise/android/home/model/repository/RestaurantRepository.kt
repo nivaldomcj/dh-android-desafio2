@@ -22,7 +22,7 @@ class RestaurantRepository {
         Restaurant(
             id = 3,
             name = "Outback - Moema",
-            address = "Av. Moaci, 187, 187 - Moema, São Paulo",
+            address = "Av. Moaci, 187 - Moema, São Paulo",
             closingTime = "Fecha às 00:00",
             imageUrl = "https://github.com/nivaldomcj/dh-android-desafio2/raw/main/img/restaurants/03.jpg"
         ),

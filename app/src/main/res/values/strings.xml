@@ -15,4 +15,5 @@
     <string name="restaurant_detail">Restaurant detail</string>
     <string name="main_dishes">Pratos principais</string>
     <string name="recipe_image">Recipe image</string>
+    <string name="recipe_detail">Recipe detail</string>
 </resources>

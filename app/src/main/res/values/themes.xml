@@ -68,11 +68,11 @@
 
     <style name="Theme.Foods.ActionButton" parent="Theme.Foods.Button">
         <item name="android:layout_marginTop">64dp</item>
-        <item name="backgroundTint">@color/red_a200</item>
+        <item name="backgroundTint">@color/sunset_orange</item>
     </style>
 
     <style name="Theme.Foods.CancelButton" parent="Theme.Foods.Button">
-        <item name="backgroundTint">@color/indigo_200</item>
+        <item name="backgroundTint">@color/ship_cove</item>
     </style>
 
 </resources>

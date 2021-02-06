@@ -27,6 +27,20 @@
         android:id="@+id/login_fragment"
         android:name="nivaldo.dh.exercise.android.auth.view.LoginFragment"
         android:label="@string/app_title"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_login_fragment_to_register_fragment"
+            app:destination="@id/register_fragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit"
+            app:popEnterAnim="@anim/fragment_fade_enter"
+            app:popExitAnim="@anim/fragment_fade_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/register_fragment"
+        android:name="nivaldo.dh.exercise.android.auth.view.RegisterFragment"
+        android:label="@string/register"
+        tools:layout="@layout/fragment_register" />
 
 </navigation>

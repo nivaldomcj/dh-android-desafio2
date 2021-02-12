@@ -1,8 +1,12 @@
 ## Sobre
 
-<img src="/img/desafio.gif">
+<p align="center">
+  <img src="/img/desafio.gif">
+</p>
 
-Exercício _Desafio Android_ (Desafio 2) desenvolvido no Curso Santander Coders Mobile Android da Digital House.
+<p align="center">
+  Exercício <i>Desafio Android</i> (Desafio 2) desenvolvido no Curso Santander Coders Mobile Android da Digital House.
+</p>
 
 ## Objetivos
 

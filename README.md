@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Exercício <i>Desafio Android</i> (Desafio 2) desenvolvido no Curso Santander Coders Mobile Android da Digital House.
+  Exercício <i>Desafio Android</i> (Desafio 2) desenvolvido no Curso Santander Coders Mobile Android da Digital House
 </p>
 
 ## Objetivos
